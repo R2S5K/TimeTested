@@ -1,0 +1,122 @@
+body {
+    background-color: #111214;
+    margin: 0;
+    font-family: Garamond, serif;
+    color: #D8D2C4;
+    line-height: 1.6;
+}
+header {
+    background-color: #65745A;
+    color: #D4AF63;
+    text-align: center;
+    padding: 2em;
+}
+nav{
+    background-color: #A8B89A;
+    text-align: center;
+    padding: 1em;
+}
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+nav a {
+    color: #111214;
+    text-decoration: none;
+    padding: 0.25em 1.5em;
+    margin: 0 0.15em;
+    display: inline-block;
+    font-size: 1.75em;
+}
+nav a:hover {
+        background-color: #A18A5B;
+        color: #D4AF63;
+    }
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+main section:first-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    align-items: center;
+}
+main section:first-child img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+main section:first-child h2 {
+    color: #A18A5B;
+    font-size: 2.5em;
+    margin-top: 0;
+}
+main section:first-child p {
+    font-size: 1.2em;
+}
+main section:nth-child(2) {
+    text-align: center;
+    margin-top: 3em;
+    padding: 0.35em;
+    border-top: 2px solid #D8D2C4;
+    border-bottom: 2px solid #D8D2C4;
+}
+main section:nth-child(2) a {
+    display: inline-block;
+    background-color: #65745A;
+    color: #E8E6D9;
+    text-decoration: none;
+    padding: 0.6em 1.2em;
+    margin: 0 3em;
+    border: 1px solid #A18A5B;
+}
+main section:nth-child(2) a:hover {
+    background-color: #A18A5B;
+    color: #111214;
+}
+main section:nth-child(3) {
+    margin-top: 3em;
+    padding: 2em 0;
+}
+main section:nth-child(3) h2 {
+    font-size: 2.2em;
+    border-bottom: 2px solid #A18A5B;
+    padding-bottom: 0.25em;
+}
+main section:nth-child(3) article {
+    background-color:#65745A;
+    padding: 1em 1.5em;
+    margin-top: 1.5em;
+}
+main section:nth-child(3) h3 {
+    margin-top: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5em;
+}
+
+th, td {
+    border: 1px solid #A18A5B;
+    padding: 0.75em;
+    text-align: left;
+}
+
+th {
+    background-color: #65745A;
+    color: #D4AF63;
+}
+
+td {
+    background-color: #111214;
+}
+:root {
+    --text: #D8D2C4;
+    --background: #111214;
+    --primary: #65745A;
+    --secondary: #A18A5B;
+    --accent: #A8B89A;
+}
