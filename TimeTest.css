@@ -27,9 +27,17 @@ nav a {
     font-size: 1.75em;
 }
 nav a:hover {
-        background-color: #65745A;
-        color: #D4AF63;
-    }
+        border-bottom: 1px solid #D4AF63;
+        border-top: 1px solid #D4AF63;
+        border-left: 1px solid #D4AF63;
+        border-right: 1px solid #D4AF63;
+}
+a {
+    color: #D4AF63;
+}
+a:visited {
+    color: #A18A5B;
+}
 main{
     max-width: 1200px;
     margin: 0 auto;
@@ -191,4 +199,63 @@ main .character p {
     grid-column: 3;
     grid-row: 1 / span 2;
     font-size: 1.2em;
+}
+main section h2 {
+    color: #A18A5B;
+    font-size: 2.2em;
+    border-bottom: 2px solid #65745A;
+    padding-bottom: 0.25em;
+}
+main section h3 {
+    color: #A18A5B;
+    font-size: 2.2em;
+    padding-bottom: 0.25em;
+}
+main section p {
+    font-size: 1.2em;
+}
+.inspiration {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    align-items: start;
+}
+
+.inspiration > p {
+    margin-top: 0;
+}
+
+.inspiration video {
+    width: 100%;
+    border: 2px solid #A18A5B;
+}
+
+.inspiration .video-description {
+    font-size: 0.93em;
+    text-align: center;
+    margin-top: 0.5em;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+form label {
+    font-size: 1.1em;
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+    color: #D4AF63;
+}
+form input,
+form select,
+form textarea {
+    padding: 0.6em;
+    font-family: Garamond, serif;
+    font-size: 1em;
+    background-color: #D8D2C4;
+    color: #111214;
+    border: 1px solid #65745A;
+}
+main.contact {
+    text-align: center;
 }

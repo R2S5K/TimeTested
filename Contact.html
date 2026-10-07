@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="This is the contact page for Time Tested, where visitors can get in touch with the developer.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Tested : Contact</title>
+    <link rel="stylesheet" href="TimeTest.css">
+</head>
+
+<body>
+    <div class="banner">
+    <header>
+        <h1>Time Tested</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Story.html">Story</a>
+        <a href="Characters.html">Characters</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    </div>
+    <main class="contact">
+        <section>
+        <h2>Get in Touch</h2>
+        <h3>If you have any questions, suggestions, or would like to get in touch, please fill out the form below:</h3>
+        <form method="post" action="#">
+            <label for="myFName">*First Name:</label>
+            <input type="text" name="myFName" id="myFName" required>
+            <label for="myLName">*Last Name:</label>
+            <input type="text" name="myLName" id="myLName" required>
+            <label for="myEmail">*E-mail Address:</label>
+            <input type="email" name="myEmail" id="myEmail" required>
+            <label for="contactReason">Reason for Contact:</label>
+            <select name="contactReason" id="contactReason">
+            <option value="question">Question</option>
+             <option value="suggestion">Suggestion</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="other">Other</option>
+            </select>
+            <label for="myComments">*Body:</label>
+            <textarea name="myComments" id="myComments" rows="4" cols="30"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+        <p>Required fields are indicated with an asterisk *.</p>
+        <p>You may also reach out to me directly via email <a href="mailto:Ryan.Kibbler@gmail.com">Ryan.Kibbler@gmail.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Time Tested</p>
+    </footer>
+
+</body>
+</html>
